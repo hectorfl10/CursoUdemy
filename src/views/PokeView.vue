@@ -33,6 +33,6 @@ getData();
         <img :src="poke.sprites?.front_default" alt="" />
         <h1>Poke name: {{ $route.params.name }}</h1>
     </div>
-    <h1 v-else>No existe el pokemon</h1>
+    <h1 v-else>No existe el pokemonn</h1>
     <button @click="back" class="btn btn-outline-primary">Volver</button>
 </template>
